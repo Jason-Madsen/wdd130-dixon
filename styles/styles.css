@@ -1,0 +1,157 @@
+#body {
+  text-align: center;
+  max-width: 1280px;
+  background-image: linear-gradient(#0b1422 50%, #ff3b3b);
+  color: #ffffff;
+}
+
+#head {
+  display: flex;
+  max-width: 1200px;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  background: #0b1422;
+  gap: 75px;
+  margin-left: 150px;
+}
+
+img {
+    width: 200px;
+}
+
+h1 {
+  font-size: 45px;
+  color: #00ffff;
+  width: 400px;
+}
+nav {
+  max-width: 100%;
+  background-color: #0b1422;
+  margin: auto;
+  height: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  border-top: 1.5px solid #ff3b3b;
+  border-bottom: 1.5px solid #ff3b3b;
+  align-items: center;
+}
+.navlink {
+  color: #ffffff;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 20px;
+  text-decoration: none;
+}
+#HERO {
+  background-image: url(/wdd130-dixon/images/HERO.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  max-width: 1000px;
+  margin: auto;
+  color: #00ffff;
+  padding: 25px;
+  padding-top: 5px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+#hero-h2 {
+  font-size: 40px;
+  text-shadow: 0 0 10px #0b1422;
+}
+
+#hero-p {
+  font-size: 25px;
+  color: #ffffff;
+  text-shadow: 0 0 10px #0b1422;
+}
+
+#Hero-button {
+  padding: 15px;
+  background-color: #0b1422E6;
+  border-radius: 25px;
+  color: #ffffff;
+  text-decoration: none;
+}
+#cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1100px;
+    width: 100%;
+    margin: auto;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.card {
+    padding: 5px;
+}
+
+#card1 {
+    background-image: linear-gradient(#0b142280, #0b142280), url(/wdd130-dixon/images/Picture2.jpg);
+    /* background-image: url(/wdd130-dixon/images/Picture2.jpg); */
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    border-radius: 10px;
+    
+}
+#card2 {
+    background-image: linear-gradient(#0b142280, #0b142280), url(/wdd130-dixon/images/Picture3.jpg);
+    /* background-image: url(/wdd130-dixon/images/Picture2.jpg); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+#card3 {
+    background-image: linear-gradient(#0b142280, #0b142280), url(/wdd130-dixon/images/Picture3.jpg);
+    /* background-image: url(/wdd130-dixon/images/Picture2.jpg); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.threat-button {
+    padding: 10px;
+    background-color: #ffffffE6;
+    border-radius: 25px;
+    color: #0b1422;
+    text-decoration: none;
+}
+#threat-button-container {
+    margin-top: 50px;
+}
+
+#overview {
+    max-width: 1100px;
+    margin: auto;
+    background-image: linear-gradient(#ff3b3b, #0b1422 75%);
+    border-radius: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 10px;
+    
+}
+
+#overview > h2 {
+    color: #00ffff;
+}
+
+footer {
+    background: #0b1422;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+    height: 100px;
+}
+
+footer > a {
+    text-decoration: none;
+    color: #ffffff;
+}
