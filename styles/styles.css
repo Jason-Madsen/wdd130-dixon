@@ -1,3 +1,7 @@
+
+
+/* HOMEPAGE */
+
 #body {
   text-align: center;
   max-width: 1280px;
@@ -42,7 +46,15 @@ nav {
   padding-right: 30px;
   font-size: 20px;
   text-decoration: none;
+  text-shadow: 2px 2px 4px #ff3b3b;
+  transition: all 0.2s ease-in-out;
 }
+
+.navlink:hover {
+  transform: translateY(-2px) scale(1.02);
+  text-shadow: 4px 4px 8px #00ffff;
+}
+
 #HERO {
   background-image: url(/wdd130-dixon/images/HERO.jpg);
   background-repeat: no-repeat;
@@ -75,6 +87,12 @@ nav {
   color: #ffffff;
   text-decoration: none;
 }
+
+#Hero-button:hover {
+  background-color: #0b1422;
+  text-shadow: 2px 2px 5px #ff3b3b;
+}
+
 #cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -123,6 +141,12 @@ nav {
     color: #0b1422;
     text-decoration: none;
 }
+
+.threat-button:hover {
+  background-color: #ffffff;
+  box-shadow: 5px 5px 15px;
+}
+
 #threat-button-container {
     margin-top: 50px;
 }
@@ -155,3 +179,23 @@ footer > a {
     text-decoration: none;
     color: #ffffff;
 }
+
+#about {
+  max-width: 1280px;
+  width: 800px;
+  margin: auto;
+
+}
+
+
+
+/* SUBPAGE 1 */
+
+
+
+
+
+
+
+
+/* SUBPAGE 2 */
