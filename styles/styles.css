@@ -253,6 +253,7 @@ footer > a {
 
 #pm-intro > h2, #phishing-info > h3, #malware-info > h3 {
   font-family: "Bebas Neue";
+  font-size: 1.5em;
 }
 
 #pm-info-wrapper {
