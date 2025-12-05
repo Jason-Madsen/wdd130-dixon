@@ -230,17 +230,17 @@ footer > a {
 
 
 /* SUBPAGE 1 */
-main {
+#main {
   width: 800px;
   margin: auto;
   padding: 50px;
 }
 
-main h2 {
+#main h2 {
   font-family: "Bebas Neue";
 }
 
-main p {
+#main p {
   font-family: "Open Sans";
   font-size: 1rem;
 }
